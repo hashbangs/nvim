@@ -4,8 +4,8 @@ return {
          local fm = require 'fluoromachine'
 
          fm.setup {
-            glow = false,
-            theme = 'fluoromachine'
+            glow = true,
+            theme = 'retrowave'
          }
 
          vim.cmd.colorscheme 'fluoromachine'
