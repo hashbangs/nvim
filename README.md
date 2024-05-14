@@ -5,7 +5,7 @@ using lazy.nvim
 
 <div align = center>
 
-<img src="https://raw.githubusercontent.com/hashbangs/nvim/main/assets/screencap.png">
+[//] <img src="https://raw.githubusercontent.com/hashbangs/nvim/main/assets/screencap.png">
 
 </div>
 
