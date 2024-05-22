@@ -6,5 +6,5 @@ recent changes:
 // both relative & absolute line number at cursor's location are shown (hybrid)
 
 working on:
-// changes to colorscheme to improve readability on line numbers
+// improving colorscheme readability on line numbers 
 ```
