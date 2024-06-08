@@ -7,7 +7,6 @@ return {
       "MunifTanjim/nui.nvim",
     },
     config = function()
-      vim.keymap.set('n', '<leader>n', ':Neotree filesystem toggle left<CR>', {})
     
     require("neo-tree").setup({
       enable_git_status = false,

@@ -10,4 +10,8 @@ vim.cmd("set number")
 -- vim.cmd("set autochdir")
 vim.g.mapleader = " " -- leader = space
 
-vim.keymap.set('n', '<leader>l', ':Lazy<CR>', {})
+-- keybinds
+vim.keymap.set('n', '<leader>u', ':Lazy update<CR>', {})
+vim.keymap.set('n', '<leader>n', ':rightbelow vnew<CR>', {})
+vim.keymap.set('n', '<leader>e', ':Explore<CR>', {})
+vim.keymap.set('n', '<leader>t', ':Neotree filesystem toggle left<CR>', {})
