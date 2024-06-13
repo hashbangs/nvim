@@ -1,5 +1,5 @@
 return {
-  'maxmx03/fluoromachine.nvim',
+  'hashbangs/fluoromachine.nvim',
   config = function ()
     local fm = require 'fluoromachine'
 
@@ -9,7 +9,5 @@ return {
     }
 
     vim.cmd.colorscheme 'fluoromachine'
-    -- colors override
-    vim.api.nvim_set_hl(0, 'LineNr', { fg = "#599eff"} )
     end
 }
