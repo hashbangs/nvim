@@ -1,7 +1,8 @@
 configuration for neovim using lazy.nvim\
-to make your own, I recommend you watch these:\
+to make your own, I recommend you watch these:
+
 **ThePrimeagen: Vim as your editor** [piped.video link](https://piped.video/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)\
-**Typecraft: on setting up Neovim** [piped.video link](https://piped.video/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)\
+**Typecraft: on setting up Neovim** [piped.video link](https://piped.video/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
 
 **recent changes:**
 ```
