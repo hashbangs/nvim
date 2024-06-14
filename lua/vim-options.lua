@@ -7,11 +7,21 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set relativenumber")
 vim.cmd("set number")
 
--- vim.cmd("set autochdir")
-vim.g.mapleader = " " -- leader = space
+-- user defined commands
+-- barbar
+vim.cmd("command! C :BufferClose")
+vim.cmd("command! CA :BufferCloseAllButVisible")
+vim.cmd("command! R :BufferRestore")
 
--- keybinds
+-- LEADER
+vim.g.mapleader = " "
+
 vim.keymap.set('n', '<leader>u', ':Lazy update<CR>', {})
+vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>', {})
+-- windows
 vim.keymap.set('n', '<leader>n', ':rightbelow vnew<CR>', {})
+vim.keymap.set('n', '<leader>t', ':enew<CR>', {})
 vim.keymap.set('n', '<leader>e', ':Explore<CR>', {})
-vim.keymap.set('n', '<leader>t', ':Neotree filesystem toggle left<CR>', {})
+-- buffers
+vim.keymap.set('n', '<leader>l', ':bn<CR>',{}) -- next
+vim.keymap.set('n', '<leader>h', ':bp<CR>',{}) -- previous
