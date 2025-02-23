@@ -4,7 +4,7 @@ return {
     require('lualine').setup({
     options = {
       icons_enabled = false,
-      theme = 'retrowave'
+      theme = 'delta'
     }
     })
   end
