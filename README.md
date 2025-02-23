@@ -8,7 +8,7 @@ to make your own, I recommend you watch these:
 ```
 added LSP
 vim-options: added custom mappings for window and tab navigation
-neo-tree: no longer shows git-status
+~~neo-tree: no longer shows git-status~~
 vim-options: both relative & absolute line number at cursor's location are shown (hybrid)
-fluoromachine.nvim: improved colorscheme readability on line numbers 
+~~fluoromachine.nvim: improved colorscheme readability on line numbers~~
 ```
