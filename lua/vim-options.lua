@@ -17,7 +17,6 @@ vim.cmd("command! R :BufferRestore")
 vim.g.mapleader = " "
 
 vim.keymap.set('n', '<leader>u', ':Lazy update<CR>', {})
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>', {})
 -- windows
 vim.keymap.set('n', '<leader>n', ':rightbelow vnew<CR>', {})
 vim.keymap.set('n', '<leader>t', ':enew<CR>', {})

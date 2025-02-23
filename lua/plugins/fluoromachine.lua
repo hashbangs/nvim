@@ -1,11 +1,11 @@
 return {
-  'hashbangs/fluoromachine.nvim',
+  'maxmx03/fluoromachine.nvim',
   config = function ()
     local fm = require 'fluoromachine'
 
     fm.setup {
       glow = true,
-      theme = 'retrowave'
+      theme = 'delta'
     }
 
     vim.cmd.colorscheme 'fluoromachine'
