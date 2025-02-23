@@ -1,3 +1,7 @@
+-- persistent colorscheme
+vim.cmd 'colorscheme vim'
+vim.api.nvim_set_hl(0, 'LineNr', { fg = "#527386"} )
+
 -- set indentation to tab = 2 spaces
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
