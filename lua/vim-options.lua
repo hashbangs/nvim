@@ -28,3 +28,11 @@ vim.keymap.set('n', '<leader>e', ':Explore<CR>', {})
 -- buffers
 vim.keymap.set('n', '<leader>l', ':bn<CR>',{}) -- next
 vim.keymap.set('n', '<leader>h', ':bp<CR>',{}) -- previous
+
+vim.keymap.set("n", "<leader>y", function()
+	if vim.diagnostic.is_enabled() then
+		vim.diagnostic.enable(false)
+	else
+		vim.diagnostic.enable()
+	end
+end)
