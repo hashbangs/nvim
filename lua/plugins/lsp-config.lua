@@ -15,27 +15,11 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
-    config = function()
-      local lspconfig = require("lspconfig")
-
-      -- define 'vim' as a global to remove warnings
-      lspconfig.lua_ls.setup({
-        settings = {
-          Lua = {
-            diagnostics = {
-              globals = {
-                'vim'
-              }
-            }
-          }
-        }
-      })
-
-      lspconfig.clangd.setup({})
-      lspconfig.bashls.setup({})
-      lspconfig.cssls.setup({})
-      lspconfig.html.setup({})
-
-    end
+    lazy = true,
+    init = function()
+      local lspConfigPath = require("lazy.core.config").options.root .. "/nvim-lspconfig"
+      vim.opt.runtimepath:prepend(lspConfigPath)
+      vim.lsp.enable({"bashls", "clangd", "cssls", "html", "hyprls", "jsonls", "ltex", "lua_ls", "remark_ls", "texlab"})
+    end,
   }
 }
